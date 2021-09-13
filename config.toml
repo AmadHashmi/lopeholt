@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://localhost:1313/"
+baseURL = "https://lopeholt.netlify.app/"
 languageCode = "en"
 title = "Hargo | Hugo Ecommerce Site"
 theme = "hargo"
