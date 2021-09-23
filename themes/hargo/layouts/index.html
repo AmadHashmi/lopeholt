@@ -1,8 +1,9 @@
 {{ define "main" }}
 
-{{if site.Data.homepage.carousel.enable}}
-    {{with site.Data.homepage.carousel}}
+
 <div id="image-slider" class="splide">
+  {{if site.Data.homepage.carousel.enable}}
+    {{with site.Data.homepage.carousel}}
   <div class="splide__track">
     <ul class="splide__list">
       {{ range .carouselItem }}
@@ -12,9 +13,10 @@
       {{end}}
     </ul>
   </div>
+  {{end}}
+{{end}}
 </div>
-{{end}}
-{{end}}
+
 
 
 <!-- banner -->
