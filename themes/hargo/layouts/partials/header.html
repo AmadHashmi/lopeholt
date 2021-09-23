@@ -9,31 +9,6 @@
       </button>
 
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
-          </li>
-          {{ range site.Menus.main }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {{ .Name }}
-            </a>
-            <div class="dropdown-menu">
-              {{ range .Children }}
-              <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
-              {{ end }}
-            </div>
-          </li>
-          {{ else }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
-          </li>
-          {{ end }}
-          {{ end }}
-        </ul>
-      </div>
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
