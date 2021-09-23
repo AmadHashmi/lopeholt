@@ -121,6 +121,9 @@ ga('send', 'pageview');
 }(document, new Date(), "script", "rating-widget.com/"));
 </script>
 {{ end }}
+
+
+<!-- Splide Slider js code -->
 <script>
 document.addEventListener( 'DOMContentLoaded', function () {
   new Splide( '#image-slider', {
@@ -128,4 +131,19 @@ document.addEventListener( 'DOMContentLoaded', function () {
     'heightRatio': 0.5,
   } ).mount();
 } );
+
+
+
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#card-slider', {
+    perPage    : 2,
+    breakpoints: {
+      600: {
+        perPage: 1,
+      }
+    }
+  } ).mount();
+} );
 </script>
+<!-- Splide Slider js code --END-- -->
