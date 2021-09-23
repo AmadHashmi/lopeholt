@@ -22,13 +22,12 @@
   </div>
 
   <div class="col-lg-4">
-
-
     <div id="card-slider" class="splide">
       {{if site.Data.homepage.carousel.enable}}
       {{with site.Data.homepage.carousel}}
       <div class="splide__track">
         <ul class="splide__list">
+          {{ range .carouselItem }}
           <li class="splide__slide">
             <img src="{{.image}}">
             <h4>Heading 01</h4>
@@ -36,6 +35,7 @@
               Description 01
             </div>
           </li>
+          {{end}}
         </ul>
       </div>
       {{end}}
