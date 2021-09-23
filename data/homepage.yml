@@ -1,3 +1,27 @@
+########################## carousel ########################
+carousel:
+  enable: true
+  title: "Carousel"
+  carouselItem:
+    # carousel item loop
+    - image: "images/carousel/img1.jpg" 
+    # carousel item loop
+    - image: "images/carousel/img2.jpg"
+    # carousel item loop
+    - image: "images/carousel/img3.jpg"
+    # carousel item loop
+    - image: "images/carousel/img4.jpg"
+    # carousel item loop
+    - image: "images/carousel/img5.jpg"
+    # carousel item loop
+    - image: "images/carousel/img6.jpg"
+    # carousel item loop
+    - image: "images/carousel/img7.jpg"
+    # carousel item loop
+    - image: "images/carousel/img8.jpg"
+    # carousel item loop
+    - image: "images/carousel/img10.jpg"
+
 ############################ banner ##########################
 banner:
   enable : true
