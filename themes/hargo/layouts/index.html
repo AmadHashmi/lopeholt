@@ -1,21 +1,33 @@
 {{ define "main" }}
 
 
-<div id="image-slider" class="splide">
-  {{if site.Data.homepage.carousel.enable}}
-    {{with site.Data.homepage.carousel}}
-  <div class="splide__track">
-    <ul class="splide__list">
-      {{ range .carouselItem }}
-      <li class="splide__slide">
-        <img src="{{.image}}">
-      </li>
-      {{end}}
-    </ul>
-  </div>
-  {{end}}
-  {{end}}
+<div class="row">
+
+  <div class="col-md-8">
+    <div id="image-slider" class="splide">
+    {{if site.Data.homepage.carousel.enable}}
+      {{with site.Data.homepage.carousel}}
+    <div class="splide__track">
+      <ul class="splide__list">
+        {{ range .carouselItem }}
+        <li class="splide__slide">
+          <img src="{{.image}}">
+        </li>
+        {{end}}
+      </ul>
+    </div>
+    {{end}}
+    {{end}}
 </div>
+  </div>
+
+  <div class="col-lg-4"></div>
+  
+
+
+</div>
+
+
 
 
 
