@@ -18,6 +18,8 @@ disqusShortname = ""
   [[params.plugins.css]]
   link = "plugins/themify-icons/themify-icons.css"
 
+
+
   # JS Plugins
   [[params.plugins.js]]
   link = "plugins/jQuery/jquery.min.js"
