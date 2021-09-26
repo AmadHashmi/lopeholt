@@ -124,93 +124,21 @@ ga('send', 'pageview');
 
 
 <!-- Splide Slider js code -->
-<script>
-// document.addEventListener( 'DOMContentLoaded', function () {
-//   new Splide( '#card-slider', {
-//     'cover'      : true,
-//     'heightRatio': 0.5,
-//   } ).mount();
-// } );
+
+<!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
+      crossorigin="anonymous"
+    ></script>
+
+ -->
 
 
 
-
-// document.addEventListener( 'DOMContentLoaded', function () {
-//   new Splide( '#card-slider', {
-    
-//     cover:true ,
-//     height    : '15rem',
-    
-//     perPage    : 2,
-//     breakpoints: {
-//       600: {
-//         perPage: 1,
-//       }
-//     }
-//   } ).mount();
-// } );
-
-
-document.addEventListener( 'DOMContentLoaded', function () {
-  new Splide( '#image-slider',{
-    'cover'      : true,
-    'heightRatio': 0.5,
-  } ).mount();
-} );
-
-
-
-
-</script>
 <!-- Splide Slider js code --END-- -->
 
-<script type="text/javascript">
-  
-  $(document).ready(function()
-{
-
-
-if($('.bbb_viewed_slider').length)
-{
-var viewedSlider = $('.bbb_viewed_slider');
-
-viewedSlider.owlCarousel(
-{
-loop:true,
-margin:30,
-autoplay:true,
-autoplayTimeout:6000,
-nav:false,
-dots:false,
-responsive:
-{
-0:{items:1},
-575:{items:2},
-768:{items:3},
-991:{items:4},
-1199:{items:6}
-}
-});
-
-if($('.bbb_viewed_prev').length)
-{
-var prev = $('.bbb_viewed_prev');
-prev.on('click', function()
-{
-viewedSlider.trigger('prev.owl.carousel');
-});
-}
-
-if($('.bbb_viewed_next').length)
-{
-var next = $('.bbb_viewed_next');
-next.on('click', function()
-{
-viewedSlider.trigger('next.owl.carousel');
-});
-}
-}
-
-
-});
-</script>
