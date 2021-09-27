@@ -43,8 +43,7 @@
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
         data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
         {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
-        data-item-custom1-name="Frame color"
-        data-item-custom1-options="Black|Brown|Gold">
+        >
         Add to cart
       </button>
     </div>

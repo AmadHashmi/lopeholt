@@ -9,5 +9,4 @@ shortDescription = "SKD 060 - SAFWA DIGITAL COTTON KURTI VOL 06 2021"
 title = "Testing product 2"
 [[images]]
 image = ""
-
 +++
