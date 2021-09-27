@@ -6,6 +6,7 @@ priceBefore = "5"
 productID = "17"
 shortDescription = "This is first testing product"
 color = ["Black", "Blue", "Pink"]
+size = ["S", "M", "L"]
 title = "New testing product 1 "
 [[images]]
 image = "/uploads/101_2_bf290475-7efc-4772-b3bc-407c7537cbf0.jpg"

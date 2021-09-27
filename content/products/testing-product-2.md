@@ -1,5 +1,6 @@
 +++
 color = ["Classy", "Orange", "Pink"]
+size = ["S", "M", "L"]
 date = 2021-09-26T19:00:00Z
 description = "SKD 060 - SAFWA DIGITAL COTTON KURTI VOL 06 2021"
 price = "21.00"

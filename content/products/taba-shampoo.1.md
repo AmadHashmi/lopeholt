@@ -2,10 +2,10 @@
 title: "Taba Shampoo"
 date: 2019-10-17T11:22:16+06:00
 draft: false
-
+color : ["Black", "Blue", "Pink"]
 # meta description
 description : "For Silky Hair"
-
+size : ["S", "M", "L"]
 # product Price
 price: "30.00"
 priceBefore: ""
