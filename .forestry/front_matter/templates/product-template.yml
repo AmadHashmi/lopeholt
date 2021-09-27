@@ -40,3 +40,5 @@ fields:
   - type: file
     name: image
     label: image
+pages:
+- content/products/new-testing-product-1.md
