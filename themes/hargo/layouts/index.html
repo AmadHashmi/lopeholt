@@ -5,145 +5,6 @@
 
 
 
-
-<!-- <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="slider ml-lg-5 ml-md-5 mt-5 py-lg-5">
-            <div class="row">
-              <div class="col-md-4">
-                <div
-                  class="imgContainer ml-lg-n5 mt-lg-0 mt-md-0 ml-md-n5 mt-n5"
-                >
-                  <div class="image">
-                    <img src="./images/s2.png" />
-                  </div>
-                  <div class="image">
-                    <img src="./images/s2.png" />
-                  </div>
-                  <div class="image">
-                    <img src="./images/s2.png" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <!-- slider -->
-                <div
-                  id="productSlider"
-                  class="carousel slide carousel-fade pr-lg-5 py-lg-0 py-4"
-                  data-ride="carousel"
-                >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="content">
-                        <div class="date">
-                          26 December 2019
-                        </div>
-                        <div class="title">
-                          Lorem ipsum dolor - one
-                        </div>
-                        <div class="desc">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Error itaque, libero dignissimos nihil aliquam
-                          eveniet tenetur cupiditate consectetur quod modi
-                          repellendus veniam, repellat iusto fugiat temporibus
-                          officia facere nulla nam.
-                        </div>
-                        <div
-                          class="d-flex justify-content-center justify-content-lg-start"
-                        >
-                          <button class="btn readMoreBtn">
-                            Read More
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="content">
-                        <div class="date">
-                          26 December 2019
-                        </div>
-                        <div class="title">
-                          Lorem ipsum dolor - two
-                        </div>
-                        <div class="desc">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Error itaque, libero dignissimos nihil aliquam
-                          eveniet tenetur cupiditate consectetur quod modi
-                          repellendus veniam, repellat iusto fugiat temporibus
-                          officia facere nulla nam.
-                        </div>
-                        <div
-                          class="d-flex justify-content-center justify-content-lg-start"
-                        >
-                          <button class="btn readMoreBtn">
-                            Read More
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="content">
-                        <div class="date">
-                          26 December 2019
-                        </div>
-                        <div class="title">
-                          Lorem ipsum dolor -three
-                        </div>
-                        <div class="desc">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Error itaque, libero dignissimos nihil aliquam
-                          eveniet tenetur cupiditate consectetur quod modi
-                          repellendus veniam, repellat iusto fugiat temporibus
-                          officia facere nulla nam.
-                        </div>
-                        <div
-                          class="d-flex justify-content-center justify-content-lg-start"
-                        >
-                          <button class="btn readMoreBtn">
-                            Read More
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- indicators -->
-                  <ol class="carousel-indicators indicators">
-                    <li
-                      data-target="#productSlider"
-                      data-slide-to="0"
-                      class="active"
-                    ></li>
-                    <li data-target="#productSlider" data-slide-to="1"></li>
-                    <li data-target="#productSlider" data-slide-to="2"></li>
-                  </ol>
-                  <!-- indicators -->
-                </div>
-                <!-- slider -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- banner -->
 {{ if site.Data.homepage.banner.enable }}
 {{ with site.Data.homepage.banner }}
@@ -159,23 +20,7 @@
         {{ end }}
         {{ end }}
 
-        {{ if .video.enable }}
-        {{ with .video }}
-        <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal"
-        class="text-color video-modal"><i
-        class="ti-control-play bg-gradient hover-shadow btn-play mr-2"></i><span>Watch Video</span></a>
-        {{ end }}
-        <!-- Modal -->
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content border-0 rounded-0">
-              <iframe width="560" height="315" src="" id="video" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-        {{ end }}
+        
       </div>
       <div class="col-lg-7 col-md-6 order-1 order-lg-2">
         <img src="{{ .image | absURL }}" class="img-fluid" alt="">
@@ -207,12 +52,12 @@
 {{ end }}
 <!-- /about -->
 
-{{ if site.Data.homepage.cta.enable }}
+<!-- {{ if site.Data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
-{{ end }}
+{{ end }} -->
 
 <!-- material -->
-{{ if site.Data.homepage.material.enable }}
+<!-- {{ if site.Data.homepage.material.enable }}
 {{ with site.Data.homepage.material }}
 <section class="section pb-0">
   <div class="container">
@@ -238,7 +83,7 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 <!-- /material -->
 
 <!-- advantage -->
