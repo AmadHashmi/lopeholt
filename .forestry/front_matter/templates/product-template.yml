@@ -26,13 +26,13 @@ fields:
 - type: text
   name: type
   label: type
-- name: sortable
+- name: color
   type: list
   config:
     use_select: false
     min: 
     max: 
-  label: Sortable
+  label: Color
 - type: field_group_list
   name: images
   label: images
