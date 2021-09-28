@@ -3,13 +3,20 @@ categories = ["Bomber", "Women", "Men"]
 color = []
 date = 2021-09-27T19:00:00Z
 description = "A ribbed and trendy design."
-images = []
 price = "50.00"
 priceBefore = ""
 productID = "10"
 shortDescription = "A ribbed and trendy design. Cotton makes it lightweight and easy to wear."
 size = ["L", "M", "S"]
 title = "Men Cotton Ribbed Blouson"
+[[images]]
+image = "/uploads/goods_63_426044.jpg"
+[[images]]
+image = ""
+[[images]]
+image = "/uploads/goods_426044_sub11.jpg"
+[[images]]
+image = ""
 
 +++
 A ribbed and trendy design. Cotton makes it lightweight and easy to wear.
