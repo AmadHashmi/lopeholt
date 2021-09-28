@@ -33,6 +33,13 @@ fields:
     min: 
     max: 
   label: Color
+- name: size
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Size
 - type: field_group_list
   name: images
   label: images
