@@ -47,6 +47,13 @@ fields:
   - type: file
     name: image
     label: image
+- name: categories
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Categories
 pages:
 - content/products/new-testing-product-1.md
 - content/products/testing-product-2.md
