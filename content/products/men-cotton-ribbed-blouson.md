@@ -1,6 +1,6 @@
 +++
 categories = ["Bomber", "Women", "Men"]
-color = []
+color = ["Blue"]
 date = 2021-09-27T19:00:00Z
 description = "A ribbed and trendy design."
 price = "50.00"
