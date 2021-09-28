@@ -42,7 +42,11 @@
         <p>{{ .Params.ShortDescription | markdownify }}</p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
         data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-        {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
+        {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
+        data-item-custom1-name="Color"
+        data-item-custom1-options="{{delimit .Params.Color `|`}}"
+        data-item-custom2-name="Size"
+        data-item-custom2-options="{{delimit .Params.Size `|`}}">
         Add to cart
       </button>
     </div>
