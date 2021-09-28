@@ -5,7 +5,7 @@ draft: false
 
 # meta description
 description : "For Glowing Skin"
-color : ["Classy", "Orange", "Pink"]
+color : ["Classy", "Orange[+100.00]", "Pink"]
 size : ["S", "M", "L"]
 # product Price
 price: "20.00"
