@@ -7,16 +7,12 @@ price = "50.00"
 priceBefore = ""
 productID = "10"
 shortDescription = "A ribbed and trendy design. Cotton makes it lightweight and easy to wear."
-size = ["L", "M", "S"]
+size = ["S", "M", "L"]
 title = "Men Cotton Ribbed Blouson"
 [[images]]
-image = "/uploads/goods_63_426044.jpg"
-[[images]]
-image = ""
+image = "/uploads/goods_426044_sub13.jpg"
 [[images]]
 image = "/uploads/goods_426044_sub11.jpg"
-[[images]]
-image = ""
 
 +++
 A ribbed and trendy design. Cotton makes it lightweight and easy to wear.
