@@ -54,5 +54,54 @@ fields:
   - type: file
     name: image
     label: image
+- name: specifications
+  type: field_group_list
+  fields:
+  - name: weight
+    type: text
+    config:
+      required: false
+    label: Weight
+  - name: dimensions
+    type: text
+    config:
+      required: false
+    label: Dimensions
+  - name: material
+    type: text
+    config:
+      required: false
+    label: Material
+  - name: condition
+    type: text
+    config:
+      required: false
+    label: Condition
+  - name: garmentcare
+    type: text
+    config:
+      required: false
+    label: Garment Care
+  - name: closure
+    type: text
+    config:
+      required: false
+    label: Closure
+  - name: noofpockets
+    type: text
+    config:
+      required: false
+    label: No. of Pockets
+  - name: season
+    type: text
+    config:
+      required: false
+    label: Season
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Specifications
 pages:
 - content/products/men-cotton-ribbed-blouson.md
+- content/products/pink-floyd-bomber-jacket.md
