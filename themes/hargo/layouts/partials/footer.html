@@ -122,7 +122,23 @@ ga('send', 'pageview');
 </script>
 {{ end }}
 
-
+<script>
+const button = document.querySelector('#product')
+const select = document.querySelector('#color')
+select.addEventListener('change', () => {
+  // Sets the default frame color when adding the item
+  let variable = select.value;
+  variable = variable.replace(/[|&;$%@"<>()\[\].+,/*0-9]/g, "");
+  button.setAttribute("data-item-custom1-value", variable)
+})
+const sizeSelect = document.querySelector('#size')
+sizeSelect.addEventListener('change', () => {
+  // Sets the default frame color when adding the item
+  let variable = sizeSelect.value;
+  variable = variable.replace(/[|&;$%@"<>()\[\].+,/*0-9]/g, "");
+  button.setAttribute("data-item-custom2-value", variable)
+})
+</script>
 <!-- Splide Slider js code -->
 <!-- 
 <script
