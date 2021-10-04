@@ -45,5 +45,69 @@
       crossorigin="anonymous"
       />
       <link rel="stylesheet" href="css/style.css" />
- -->
-    </head>
+    -->
+    <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Container for flexboxes */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* Create four equal columns */
+    .column {
+      flex: 25%;
+      padding: 20px;
+    }
+    .value{
+      font-size: 5;
+      font-style: italic;
+    }
+    .spec{
+      font-weight: 800
+    }
+
+    /* On screens that are 992px wide or less, go from four columns to two columns */
+    @media screen and (max-width: 992px) {
+      .column {
+        flex: 25%;
+      }
+      .value{
+        font-size: 5;
+        font-style: italic;
+      }
+      .spec{
+        font-weight: 800
+      }
+
+    }
+
+    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .row {
+        flex-direction: row;
+      }
+      .value{
+        font-size: 5;
+        font-style: italic;
+      }
+      .spec{
+        font-weight: 800
+      }
+
+      .nav-pills.nav-link.active,.nav-pills.show>.nav-link
+      {
+        color:#fff;
+        background-color:#062660 !important; 
+      }
+      a.nav-item{
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+
+
+    </style>
+  </head>
